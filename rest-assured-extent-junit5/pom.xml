@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>tech.grasshopper</groupId>
+		<artifactId>rest-assured-extent-reports</artifactId>
+		<version>1.0.0</version>
+	</parent>
+
+	<artifactId>rest-assured-extent-junit5</artifactId>
+	<name>rest-assured-extent-report-junit5</name>
+	<description>Artifact bundle for Extent Report for Rest Assured
+		execution with JUnit 5
+	</description>
+
+	<properties>
+		<allure-junit5-version>2.17.3</allure-junit5-version>
+		<extent-allure-annotation.version>1.0.2
+		</extent-allure-annotation.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-junit5</artifactId>
+			<version>${allure-junit5-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreport-allure-annotation</artifactId>
+			<version>${extent-allure-annotation.version}</version>
+		</dependency>
+	</dependencies>
+</project>

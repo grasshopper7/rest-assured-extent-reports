@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tech.grasshopper</groupId>
+	<artifactId>rest-assured-extent-reports</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>rest-assured-extent-junit4</module>
+		<module>rest-assured-extent-junit5</module>
+		<module>rest-assured-extent-testng</module>
+		<module>cucumber-rest-assured-extent-junit</module>
+		<module>cucumber-rest-assured-extent-testng</module>
+	</modules>
+
+	<properties>
+		<extent-allure-ra.version>1.0.1
+		</extent-allure-ra.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extent-allure-rest-assured</artifactId>
+			<version>${extent-allure-ra.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
