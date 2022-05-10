@@ -10,8 +10,8 @@
 
 	<artifactId>rest-assured-extent-junit5</artifactId>
 	<name>rest-assured-extent-report-junit5</name>
-	<description>Artifact bundle for Extent Report for Rest Assured
-		execution with JUnit 5
+	<description>Artifact bundle for generation of ExtentReport suite of
+		reports for Rest Assured execution with JUnit 5
 	</description>
 
 	<properties>

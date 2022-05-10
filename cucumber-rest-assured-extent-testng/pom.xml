@@ -10,8 +10,8 @@
 
 	<artifactId>cucumber-rest-assured-extent-testng</artifactId>
 	<name>cucumber-rest-assured-extent-testng</name>
-	<description>Artifact bundle for Extent Report for Cucumber Rest
-		Assured execution with TestNG
+	<description>Artifact bundle for generation of ExtentReport suite of
+		reports for Cucumber Rest Assured execution with TestNG
 	</description>
 
 	<properties>

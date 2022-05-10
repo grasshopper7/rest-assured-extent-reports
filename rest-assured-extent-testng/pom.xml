@@ -10,8 +10,8 @@
 
 	<artifactId>rest-assured-extent-testng</artifactId>
 	<name>rest-assured-extent-report-testng</name>
-	<description>Artifact bundle for Extent Report for Rest Assured
-		execution with TestNG
+	<description>Artifact bundle for generation of ExtentReport suite of
+		reports for Rest Assured execution with TestNG
 	</description>
 
 	<properties>
